@@ -13,7 +13,7 @@ window.addEventListener("load", () => {
     .then((response) => response.json())
     .then((data) => {
       console.log(data)
-      const shinySprite = data.sprites.front_shiny
+      const shinySprite = data.sprites.front_default
       // Create img element
       const img = document.createElement("img")
       // Set img src as shinySprite
